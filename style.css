@@ -10,6 +10,7 @@
 /* todos que estão dentro do body vão usar essa font, estou pegando do google */
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 30px;
 }
 
 /* definido o tamanho da página que vou trabalhar no curriculo */
@@ -20,8 +21,14 @@ body{
 }
 
 h3{
+   
     text-transform: uppercase;
-    margin: 10px;
+    margin: 22px !important;
+    color:blue;
+}
+
+b{
+    color: #191919;
 }
 
 .margin-10{
@@ -30,16 +37,16 @@ h3{
 
 .menu-esquerda{
     float: left; 
-    width: 30%;
+    width: 28%;
 }
 
 .menu-esquerda img{
-    width: 150px;
+    width: 140px;
     margin-top: 10px;
 }
 
 .menu-direita{
-    width: 65%; 
+    width: 70%; 
     float: right;
 }
 
@@ -67,5 +74,5 @@ h1{
 
 hr{
     border: 1px solid;
-    margin: 0 10px;
+    margin: 5px 15px;
 }
