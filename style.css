@@ -18,3 +18,54 @@ body{
     height: 800px;
     border: 1px solid;
 }
+
+h3{
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+.menu-esquerda{
+    float: left; 
+    width: 30%;
+}
+
+.menu-esquerda img{
+    width: 150px;
+    margin-top: 10px;
+}
+
+.menu-direita{
+    width: 65%; 
+    float: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.clear{
+    clear: both;
+}
+
+h1{
+    padding: 10px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.4121848568528974) 1%, rgba(252,176,69,1) 100%); 
+}
+
+.menu-direita div p{
+    padding: 5px;
+}
+
+hr{
+    border: 1px solid;
+    margin: 0 10px;
+}
